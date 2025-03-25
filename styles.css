@@ -60,11 +60,25 @@ body {
   max-width: 40%; /* Limita a largura da imagem */
 }
 
-.descricao-imagem img {
+.descricao-imagem img,
+.descricao-imagem canvas {
   width: 100%;
   height: auto;
-  border-radius: 10px; /* Bordas arredondadas para a imagem */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para destacar a imagem */
+  border-radius: 10px; /* Bordas arredondadas para a imagem/gráfico */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para destacar a imagem/gráfico */
+}
+
+/* Ajuste para Telas Menores */
+@media (max-width: 768px) {
+  .descricao-container {
+    flex-direction: column; /* Altera o layout para coluna */
+    align-items: flex-start; /* Alinha os elementos à esquerda */
+  }
+
+  .descricao-texto,
+  .descricao-imagem {
+    max-width: 100%; /* Ocupa toda a largura disponível */
+  }
 }
 
 #selecao {
