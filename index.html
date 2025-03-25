@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permafrost Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Seção do Título -->
+  <section id="titulo" class="section">
+    <h1>PermaFrost & COP-30</h1>
+    <p>Team: Antônio, Alexandre, Rafael and Paulo</p>
+  </section>
+
+  <!-- Seção da Descrição do Tema -->
+  <section id="descricao" class="section">
+    <div class="descricao-container">
+      <div class="descricao-texto">
+        <p>
+          Permafrost is defined as a layer of soil, rock, or sediment that remains frozen for at least two consecutive years. It is mainly found in high-latitude regions (such as the Arctic) and at high altitudes (such as mountains). Permafrost can contain frozen organic matter, pure ice, and other materials, and its stability is crucial for ecosystems and infrastructure in these regions.
+        </p>
+      </div>
+      <div class="descricao-imagem">
+        <img src="https://github.com/TonhimNoobToPro/permafrost-cop30/blob/main/PremaFrost.webp" alt="Permafrost Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Selecionar Seção para Ler -->
+  <section id="selecao" class="section">
+    <h2>Select a Section</h2>
+    <div class="botoes-selecao">
+      <button id="btn-secao1" data-title="Impact of Permafrost Thaw on the Global Climate" onclick="mostrarSecao('secao1')">Impact of Permafrost Thaw on the Global Climate</button>
+      <button id="btn-secao2" data-title="Ecological and Social Consequences of Permafrost Thaw" onclick="mostrarSecao('secao2')">Ecological and Social Consequences of Permafrost Thaw</button>
+      <button id="btn-secao3" data-title="AI and Quantum Computing for Permafrost Monitoring" onclick="mostrarSecao('secao3')">AI and Quantum Computing for Permafrost Monitoring</button>
+      <button id="btn-secao4" data-title="Mitigation and Adaptation Strategies" onclick="mostrarSecao('secao4')">Mitigation and Adaptation Strategies</button>
+    </div>
+  </section>
+
+  <!-- Seção 1 -->
+  <section id="secao1" class="section hidden">
+    <div class="descricao-container">
+      <div class="descricao-texto">
+        <h2>Impact of Permafrost Thaw on the Global Climate</h2>
+        <p>
+          The melting of permafrost releases large amounts of greenhouse gases like carbon dioxide and methane, which intensify climate change. Methane is particularly concerning because it traps heat much more effectively than carbon dioxide. This process creates a feedback loop where warming leads to more thawing, releasing even more gases. Addressing this issue is crucial for meeting global emission reduction goals and preventing irreversible changes to Earth's climate system.
+        </p>
+      </div>
+      <div class="descricao-imagem">
+        <img src="permafrost-gases.jpg" alt="Permafrost releasing greenhouse gases" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 2 -->
+  <section id="secao2" class="section hidden">
+    <div class="descricao-container">
+      <div class="descricao-texto">
+        <h2>Ecological and Social Consequences of Permafrost Thaw</h2>
+        <p>
+          The thawing of permafrost disrupts Arctic ecosystems by altering vegetation and forming thermokarst lakes, which release additional greenhouse gases. Indigenous communities face significant challenges due to soil instability, including erosion and threats to traditional ways of life such as hunting and fishing. Protecting these vulnerable populations and their environments must be a priority in global climate policies.
+        </p>
+      </div>
+      <div class="descricao-imagem">
+        <img src="indigenous-community.jpg" alt="Indigenous community affected by permafrost thaw" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 3 -->
+  <section id="secao3" class="section hidden">
+    <div class="descricao-container">
+      <div class="descricao-texto">
+        <h2>AI and Quantum Computing for Permafrost Monitoring</h2>
+        <p>
+          Artificial Intelligence (AI) and quantum computing are emerging tools with the potential to monitor and predict changes in permafrost. AI can analyze satellite imagery and sensor data to detect early signs of degradation, while quantum computing, exemplified by Microsoft’s Majorana chip, offers the ability to simulate complex environmental systems. These technologies could revolutionize permafrost research by providing advanced predictive models, though they remain largely experimental and may be discussed at COP-30 as future solutions.
+        </p>
+      </div>
+      <div class="descricao-imagem">
+        <img src="majorana-quantum.jpg" alt="Microsoft's Majorana quantum chip for permafrost research" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 4 -->
+  <section id="secao4" class="section hidden">
+    <div class="descricao-container">
+      <div class="descricao-texto">
+        <h2>Mitigation and Adaptation Strategies</h2>
+        <p>
+          To address the impacts of permafrost thaw, global efforts must focus on reducing greenhouse gas emissions and developing adaptive infrastructure, such as adjustable building foundations to handle unstable ground. Continuous scientific monitoring is essential to understand thaw patterns and inform mitigation strategies like reforestation and low-carbon technologies. These approaches could be highlighted at COP-30 as part of science-based solutions to combat climate change.
+        </p>
+      </div>
+      <div class="descricao-imagem">
+        <img src="mitigation-strategies.jpg" alt="Mitigation strategies for permafrost thaw" />
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
