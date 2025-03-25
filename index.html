@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Permafrost Site</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <!-- Seção do Título -->
@@ -22,7 +23,7 @@
         </p>
       </div>
       <div class="descricao-imagem">
-        <img src="https://github.com/TonhimNoobToPro/permafrost-cop30/blob/main/PremaFrost.webp" alt="Permafrost Image" />
+        <img src="/Images/PremaFrost.webp" alt="Permafrost Image" />
       </div>
     </div>
   </section>
@@ -39,19 +40,20 @@
   </section>
 
   <!-- Seção 1 -->
-  <section id="secao1" class="section hidden">
-    <div class="descricao-container">
-      <div class="descricao-texto">
-        <h2>Impact of Permafrost Thaw on the Global Climate</h2>
-        <p>
-          The melting of permafrost releases large amounts of greenhouse gases like carbon dioxide and methane, which intensify climate change. Methane is particularly concerning because it traps heat much more effectively than carbon dioxide. This process creates a feedback loop where warming leads to more thawing, releasing even more gases. Addressing this issue is crucial for meeting global emission reduction goals and preventing irreversible changes to Earth's climate system.
-        </p>
-      </div>
-      <div class="descricao-imagem">
-        <img src="permafrost-gases.jpg" alt="Permafrost releasing greenhouse gases" />
-      </div>
+  <!-- Seção 1 -->
+<section id="secao1" class="section hidden">
+  <div class="descricao-container">
+    <div class="descricao-texto">
+      <h2>Impact of Permafrost Thaw on the Global Climate</h2>
+      <p>
+        The melting of permafrost releases large amounts of greenhouse gases like carbon dioxide and methane, which intensify climate change. Methane is particularly concerning because it traps heat much more effectively than carbon dioxide. This process creates a feedback loop where warming leads to more thawing, releasing even more gases. Addressing this issue is crucial for meeting global emission reduction goals and preventing irreversible changes to Earth's climate system.
+      </p>
     </div>
-  </section>
+    <div class="descricao-imagem">
+      <canvas id="graficoPermafrost" width="400" height="300"></canvas>
+    </div>
+  </div>
+</section>
 
   <!-- Seção 2 -->
   <section id="secao2" class="section hidden">
@@ -63,7 +65,8 @@
         </p>
       </div>
       <div class="descricao-imagem">
-        <img src="indigenous-community.jpg" alt="Indigenous community affected by permafrost thaw" />
+        <img src="/Images/resized_600_Tuk_skyline.png" alt="Indigenous community affected by permafrost thaw" />
+        <p>Canada’s Northern communities, such as Tuktoyaktuk, already feel the everyday effects of climate change.</p>
       </div>
     </div>
   </section>
@@ -78,7 +81,7 @@
         </p>
       </div>
       <div class="descricao-imagem">
-        <img src="majorana-quantum.jpg" alt="Microsoft's Majorana quantum chip for permafrost research" />
+        <img src="/Images/majorana-1-chip-da-microsoft-com-os-ineditos-bits-quanticos-topologicos-1740145202898_v2_900x506.webp" alt="Microsoft's Majorana quantum chip for permafrost research" />
       </div>
     </div>
   </section>
@@ -93,7 +96,7 @@
         </p>
       </div>
       <div class="descricao-imagem">
-        <img src="mitigation-strategies.jpg" alt="Mitigation strategies for permafrost thaw" />
+        <img src="/Images/Economia-de-baixo-carbono-no-Brasil-700x426.webp" alt="Mitigation strategies for permafrost thaw" />
       </div>
     </div>
   </section>
